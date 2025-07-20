@@ -45,29 +45,25 @@ This application caters to three primary user roles:
 
 ## 📁 Folder Structure
 
-\`\`\`
 house-hunt/
-├── backend/          # Express.js server-side code
-│   ├── controllers/  # Logic for each route
-│   ├── models/       # Mongoose schemas
-│   ├── routes/       # API routes
-│   ├── middleware/   # Authentication, validation
-│   └── server.js     # Entry point
+├── backend/ # Express.js server-side code
+│ ├── controllers/ # Logic for each route
+│ ├── models/ # Mongoose schemas
+│ ├── routes/ # API routes
+│ ├── middleware/ # Authentication, validation
+│ └── server.js # Entry point
 │
-├── frontend/         # React.js client-side code
-│   ├── src/
-│   │   ├── components/   # Reusable UI components
-│   │   ├── pages/        # Login, Home, Dashboard, etc.
-│   │   ├── api/          # Axios calls
-│   │   ├── context/      # Auth context
-│   │   └── App.js
-│   └── public/
+├── frontend/ # React.js client-side code
+│ ├── src/
+│ │ ├── components/ # Reusable UI components
+│ │ ├── pages/ # Login, Home, Dashboard, etc.
+│ │ ├── api/ # Axios calls
+│ │ ├── context/ # Auth context
+│ │ └── App.js
+│ └── public/
 │
-├── .env              # Environment variables
-├── README.md         # Project documentation
-\`\`\`
-
----
+├── .env # Environment variables
+├── README.md # Project documentation
 
 ## 🧰 Technologies Used
 
